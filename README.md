@@ -24,6 +24,54 @@ I focused on making the app secure and easy to use. Here are the main features:
 
 ---
 
+## 📸 Application Walkthrough
+
+Here is a visual tour of how the application works:
+
+### 1. Authentication
+Secure login and signup pages for Managers and Employees.
+
+| Sign In | Sign Up |
+| :---: | :---: |
+| ![Sign In Page](screenshots/signin%20page.png) | ![Sign Up Page](screenshots/signup%20page.png) |
+
+### 2. Manager Dashboard & Employees
+Managers can view the dashboard and manage their team.
+
+| Manager Dashboard | Employee List |
+| :---: | :---: |
+| ![Manager Dashboard](screenshots/manager%20dashboard.png) | ![Navigating Employees](screenshots/navigating%20empoloyee.png) |
+
+**Adding a New Employee:**
+![Creating Employee](screenshots/creating%20employee.png)
+
+### 3. Task Management
+Managers can create tasks and assign them to employees.
+
+| Creating a Task | Task List |
+| :---: | :---: |
+| ![Creating Task](screenshots/creating%20a%20task.png) | ![Task List](screenshots/navigating%20tasks%20manager.png) |
+
+### 4. Collaboration
+Users can comment on tasks to discuss details.
+
+| Task Details | Comments |
+| :---: | :---: |
+| ![Task Details](screenshots/task%20page%20with%20comments.png) | ![Multiple Comments](screenshots/task%20with%20multiple%20comments.png) |
+
+### 5. Employee View
+Employees have a focused view of only their assigned tasks, can collaborate via comments, and manage their security.
+
+| Task Dashboard | Task Collaboration |
+| :---: | :---: |
+| ![Employee Task Screen](screenshots/employee%20task%20screen.png) | ![Task Collaboration](screenshots/task%20page%20with%20comments.png) |
+
+**Security Management:**
+Employees (and Managers) can easily change their passwords.
+![Change Password](screenshots/change%20password.png)
+
+---
+
 ## 🛠️ How It's Built
 
 I used modern tools to make the app fast and responsive:
@@ -104,5 +152,17 @@ That's it! Open the link shown in the terminal (usually `http://localhost:5173`)
     *   Sign up first to create a **Manager** account.
     *   Use that account to add **Employees**.
     *   Log out and log back in as an Employee to see their restricted view.
+
+### 🧪 Demo Credentials
+
+If you want to test the app quickly without creating accounts, you can use these:
+
+**Manager Account:**
+*   **Email**: `luffy@mail.com`
+*   **Password**: `luffy`
+
+**Employee Account:**
+*   **Email**: `zoro@mail.com`
+*   **Password**: `zoro`
 
 Enjoy exploring the app! 🚀

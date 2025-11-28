@@ -36,7 +36,7 @@ exports.signup = async (req, res) => {
             res.cookie('jwt', token, {
                 httpOnly: true,
                 secure: process.env.NODE_ENV !== 'development',
-                sameSite: 'strict',
+                sameSite: process.env.NODE_ENV === 'development' ? 'lax' : 'none',
                 maxAge: 30 * 24 * 60 * 60 * 1000,
             });
 
@@ -65,7 +65,7 @@ exports.login = async (req, res) => {
             res.cookie('jwt', token, {
                 httpOnly: true,
                 secure: process.env.NODE_ENV !== 'development',
-                sameSite: 'strict',
+                sameSite: process.env.NODE_ENV === 'development' ? 'lax' : 'none',
                 maxAge: 30 * 24 * 60 * 60 * 1000,
             });
 
@@ -87,6 +87,8 @@ exports.logout = (req, res) => {
     res.cookie('jwt', '', {
         httpOnly: true,
         expires: new Date(0),
+        secure: process.env.NODE_ENV !== 'development',
+        sameSite: process.env.NODE_ENV === 'development' ? 'lax' : 'none',
     });
     res.status(200).json({ message: 'Logged out' });
 };

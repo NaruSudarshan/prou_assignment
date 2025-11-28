@@ -1,26 +1,22 @@
 # ProU - Employee Task Tracker
 
-Hi! 👋 This is **ProU**, a task management app I built using the MERN stack. It's designed to help Managers and Employees work together smoothly. The main idea was to create a system where Managers can assign work and Employees can track their progress without getting overwhelmed.
+Hi! 👋 This is **ProU**, a simple MERN stack app for task management. It helps Managers assign work and Employees track their progress efficiently.
 
-## 🌟 What It Does
+## 🌟 Key Features
 
-I focused on making the app secure and easy to use. Here are the main features:
+### 🔐 Secure
+*   **Safe Login**: Uses JWT and HTTP-only cookies.
+*   **Encrypted Passwords**: All passwords are hashed for security.
 
-### 🔐 Secure & Safe
-*   **Login/Signup**: You can create a Manager account to get started.
-*   **Safe Data**: I used JWT (JSON Web Tokens) and HTTP-only cookies so user sessions are secure.
-*   **Passwords**: Everyone's password is encrypted. New employees get a default password (`123456`) which they can change later.
+### 👨‍💼 Manager Role
+*   **Manage Team**: Add and update employee profiles.
+*   **Task Control**: Create, assign, and delete tasks.
+*   **Overview**: View all tasks on a visual board.
 
-### 👨‍💼 For Managers
-*   **Full Control**: You can add new employees and manage their profiles.
-*   **Task Management**: Create tasks, set deadlines, and assign them to your team.
-*   **Kanban Board**: A visual board to see what's Pending, In Progress, or Completed.
-*   **Moderation**: You can delete any task or comment if needed.
-
-### 👷 For Employees
-*   **Focused View**: Employees only see the tasks assigned to them, so they can focus on their work.
-*   **Updates**: They can move tasks to "In Progress" or "Completed" as they work.
-*   **Collaboration**: There's a comment section on every task to ask questions or give updates.
+### 👷 Employee Role
+*   **My Tasks**: View only assigned tasks.
+*   **Updates**: Change task status (Pending → Completed).
+*   **Chat**: Comment on tasks to collaborate.
 
 ---
 
@@ -29,7 +25,8 @@ I focused on making the app secure and easy to use. Here are the main features:
 Here is a visual tour of how the application works:
 
 ### 1. Authentication
-Secure login and signup pages for Managers and Employees.
+Secure login and signup pages.
+> **Note**: Employees cannot sign up themselves. They must be added by a Manager first. Once added, they can log in using their email and the default password (`123456`), which they should change immediately.
 
 | Sign In | Sign Up |
 | :---: | :---: |
@@ -62,13 +59,13 @@ Users can comment on tasks to discuss details.
 ### 5. Employee View
 Employees have a focused view of only their assigned tasks, can collaborate via comments, and manage their security.
 
-| Task Dashboard | Task Collaboration |
+| Task Dashboard | Security Management |
 | :---: | :---: |
-| ![Employee Task Screen](screenshots/employee%20task%20screen.png) | ![Task Collaboration](screenshots/task%20page%20with%20comments.png) |
+| ![Employee Task Screen](screenshots/employee%20task%20screen.png) | ![Change Password](screenshots/change%20password.png) |
 
-**Security Management:**
-Employees (and Managers) can easily change their passwords.
-![Change Password](screenshots/change%20password.png)
+**Task Collaboration:**
+Employees can discuss details and provide updates on every task.
+![Task Collaboration](screenshots/task%20page%20with%20comments.png)
 
 ---
 

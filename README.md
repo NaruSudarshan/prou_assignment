@@ -1,5 +1,9 @@
 # ProU - Employee Task Tracker
 
+## 🔗 Live Demo
+*   **Frontend**: [prou.narusudarshan.com](https://prou.narusudarshan.com) or [prou-assignment.vercel.app](https://prou-assignment.vercel.app)
+*   **Backend API**: [prou-assignment-bobw.onrender.com](https://prou-assignment-bobw.onrender.com/)
+
 Hi! 👋 This is **ProU**, a simple MERN stack app for task management. It helps Managers assign work and Employees track their progress efficiently.
 
 ## 🌟 Key Features

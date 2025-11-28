@@ -1,8 +1,8 @@
 # ProU - Employee Task Tracker
 
 ## 🔗 Live Demo
-*   **Frontend**: [prou.narusudarshan.com](https://prou.narusudarshan.com)
-    *   Deployed on **Vercel**.
+*   **Application**: [prou.narusudarshan.com](https://prou.narusudarshan.com)
+    *   Deployed on **Vercel**[prou-assignment.vercel.app](https://prou-assignment.vercel.app).
     *   Mapped via **CNAME record** to custom domain.
 *   **Backend API**: [prou-assignment-bobw.onrender.com](https://prou-assignment-bobw.onrender.com/)
     *   Deployed on **Render**.
